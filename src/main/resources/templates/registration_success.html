@@ -1,0 +1,25 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+         span {
+        display: inline-block;
+        width: 200px;
+        text-align: left;
+    </style>
+</head>
+<body>
+<div align="center">
+    <h2>Registration Succeeded!</h2>
+    <span>Full name:</span><span th:text="${dupa.fullName}"></span><br/>
+    <span>E-mail:</span><span th:text="${dupa.email}"></span><br/>
+    <span>Password:</span><span th:text="${dupa.password}"></span><br/>
+    <span>Gender:</span><span th:text="${dupa.gender}"></span><br/>
+    <span>Profession:</span><span th:text="${dupa.profession}"></span><br/>
+    <span>Married?</span><span th:text="${dupa.married}"></span><br/>
+    <span>Note:</span><span th:text="${dupa.notes}"></span><br/>
+</div>
+</body>
+</html>
